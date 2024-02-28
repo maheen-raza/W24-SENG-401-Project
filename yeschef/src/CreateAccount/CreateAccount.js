@@ -1,20 +1,20 @@
-import "./Login.css";
+import "./CreateAccount.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Login from "../Login/Login";
+import React from "react";
 
-function Login() {
+function CreateAccount() {
     return (
-        <div className="login">
+        <div className="create-account">
             <div className="div">
                 <div className="group">
                     <div className="overlap">
-                        <div className="text-wrapper">PASSWORD</div>
+                        <div className="text-wrapper">ENTER A PASSWORD</div>
                         <div className="input-wrapper-1"></div> 
                         <div className="overlap-group">
-                            <Link to="/createaccount">
-                                <div className="create-account">OR CREATE AN ACCOUNT</div>
-                            </Link>
+                            <div className="create-account">CREATE AN ACCOUNT</div>
                         </div>
-                        <div className="text-wrapper-2">LOGIN</div>
+                        <div className="text-wrapper-2">CREATE ACCOUNT</div>
                         <div className="overlap-group-warpper">
                             <div className="overlap-group-2">
                                 <div className="rectangle-2">
@@ -22,7 +22,7 @@ function Login() {
                                 </div>
                             </div>
                         </div>
-                        <div className="text-wrapper-4">USERNAME</div>
+                        <div className="text-wrapper-4">ENTER A USERNAME</div>
                         <div className="input-wrapper-2"></div> 
                     </div>
                 </div>
@@ -37,4 +37,4 @@ function Login() {
     );
 }
 
-export default Login;
+export default CreateAccount;
