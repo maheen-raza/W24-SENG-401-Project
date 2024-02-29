@@ -29,7 +29,7 @@ body, html {
 
 .create-account .overlap {
     background-color: #f5e3db;
-    height: 644px;
+    height: 780px;
     position: relative;
     width: 545px;
     bottom: -200px;
@@ -46,7 +46,7 @@ body, html {
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 270px;
+    top: 420px;
     width: 289px;
     /*
     background-color: #f8f8f8; 
@@ -60,11 +60,11 @@ body, html {
     height: 61px;
     left: 0;
     position: absolute;
-    top: 583px;
+    top: 565px;
     width: 545px;
 }
 
-.create-account .create-account {
+.create-account .create-account-text {
     background-color: #1b4235; 
     color: #f5e3db;
     font-family: "Inter", Helvetica;
@@ -76,7 +76,7 @@ body, html {
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: -20px;
+    top: 90px;
     border: 1px solid #fff; 
     border-radius: 5px; 
     padding: 10px; 
@@ -113,20 +113,12 @@ body, html {
     width: 197px;
 }
 
-.create-account .overlap-group-2 {
-    height: 66px;
-    position: relative;
-    width: 195px;
-    bottom: -450px;
-    right: -180px;
-}
-
 .create-account .rectangle-2 {
     background-color: #1b4235;
     height: 66px;
     left: 1px;
     position: absolute;
-    top: 0;
+    top: 140px;
     width: 194px;
 }
 
@@ -155,7 +147,7 @@ body, html {
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 100px;
+    top: 250px;
     width: 289px;
     /*
     background-color: #f8f8f8; 
@@ -221,7 +213,7 @@ body, html {
     position: absolute;
     width: 289px; 
     height: 51px; 
-    bottom: 220px;
+    bottom: 210px;
     left: 125px;
 }
 
@@ -233,7 +225,40 @@ body, html {
     position: absolute;
     width: 289px; 
     height: 51px; 
-    bottom: 390px;
+    bottom: 370px;
+    left: 125px;
+}
+
+.create-account .text-wrapper-7 {
+    color: #1b4235;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    height: 51px;
+    left: 138px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 289px;
+    /*
+    background-color: #f8f8f8; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px; 
+    */
+}
+
+.create-account .input-wrapper-3 {
+    background-color: #f8f8f8; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 550px;
     left: 125px;
 }
 
