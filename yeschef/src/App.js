@@ -17,12 +17,13 @@ export default App;
 
 */
 
-// App.js or your main routing component
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import WebHome from "./WebHome/WebHome"; 
 import Login from "./Login/Login"; 
 import CreateAccount from "./CreateAccount/CreateAccount";
+//import SettingsPage from "./SettingsPage/SettingsPage";
+
 
 function App() {
   return (
