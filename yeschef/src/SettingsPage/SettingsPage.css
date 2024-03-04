@@ -64,7 +64,7 @@ body, html {
     width: 545px;
 }
 
-.settings .create-account-text {
+.settings .log-out {
     background-color: #1b4235; 
     color: #f5e3db;
     font-family: "Inter", Helvetica;
@@ -123,11 +123,11 @@ body, html {
 }
 
 .settings .text-wrapper-3 {
-    color: #f5e3db;
+    color: #1b4235;
     font-family: "Lao Sans Pro-Regular", Helvetica;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 400;
-    left: 0;
+    left: 45px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -138,23 +138,16 @@ body, html {
 
 .settings .text-wrapper-4 {
     color: #1b4235;
-    font-family: "Inter", Helvetica;
-    font-size: 30px;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 25px;
     font-weight: 400;
-    height: 51px;
-    left: 138px;
+    left: 45px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 250px;
-    width: 289px;
-    /*
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd; 
-    border-radius: 5px; 
-    padding: 10px; 
-    */
+    top: 9px;
+    width: 195px;
 }
 
 .settings .rectangle-3 {
@@ -184,7 +177,7 @@ body, html {
     font-family: "Rozha One", Helvetica;
     font-size: 50px;
     font-weight: 400;
-    left: 550px;
+    left: -350px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -197,7 +190,7 @@ body, html {
     font-family: "Rozha One", Helvetica;
     font-size: 50px;
     font-weight: 400;
-    left: 550px;
+    left: -350px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -213,7 +206,7 @@ body, html {
     position: absolute;
     width: 289px; 
     height: 51px; 
-    bottom: 210px;
+    bottom: 580px;
     left: 125px;
 }
 
@@ -225,29 +218,22 @@ body, html {
     position: absolute;
     width: 289px; 
     height: 51px; 
-    bottom: 370px;
+    bottom: 470px;
     left: 125px;
 }
 
 .settings .text-wrapper-7 {
     color: #1b4235;
-    font-family: "Inter", Helvetica;
-    font-size: 30px;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 25px;
     font-weight: 400;
-    height: 51px;
-    left: 138px;
+    left: 45px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 100px;
-    width: 289px;
-    /*
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd; 
-    border-radius: 5px; 
-    padding: 10px; 
-    */
+    top: 9px;
+    width: 195px;
 }
 
 .settings .input-wrapper-3 {
@@ -258,9 +244,60 @@ body, html {
     position: absolute;
     width: 289px; 
     height: 51px; 
-    bottom: 550px;
+    bottom: 350px;
     left: 125px;
 }
 
+.settings .input-wrapper-4 {
+    background-color: #f8f8f8; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 250px;
+    left: 125px;
+}
+
+.settings .input-wrapper-5 {
+    background-color: #f8f8f8; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 150px;
+    left: 125px;
+}
+
+.settings .text-wrapper-8 {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    width: 195px;
+}
+
+.settings .text-wrapper-9 {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    left: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    width: 195px;
+}
 
 

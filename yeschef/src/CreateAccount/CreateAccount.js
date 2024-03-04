@@ -12,7 +12,9 @@ function CreateAccount() {
                         <div className="text-wrapper">ENTER A PASSWORD</div>
                         <div className="input-wrapper-1"></div> 
                         <div className="overlap-group">
-                            <div className="create-account-text">CREATE AN ACCOUNT</div>
+                            <Link to="/settings">
+                                <div className="create-account-text">CREATE AN ACCOUNT</div>
+                            </Link>
                         </div>
                         <div className="text-wrapper-2">CREATE ACCOUNT</div>
                         <div className="overlap-group-warpper">

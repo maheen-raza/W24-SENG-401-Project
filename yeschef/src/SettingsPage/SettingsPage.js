@@ -8,17 +8,17 @@ function SettingsPage() {
             <div className="div">
                 <div className="group">
                     <div className="overlap">
-                        <div className="input-wrapper-1">CHANGE USERNAME</div> 
                         <div className="overlap-group">
-                            <div className="create-account-text">LOG OUT</div>
+                            <div className="log-out">LOG OUT</div>
                         </div>
                         <div className="text-wrapper-2">SETTINGS</div>
                         <div className="overlap-group-warpper">
                         </div>
-                        <div className="text-wrapper-7">ENTER AN EMAIL</div>
-                        <div className="input-wrapper-3"></div>
-                        <div className="text-wrapper-4">ENTER A USERNAME</div>
-                        <div className="input-wrapper-2"></div>
+                        <div className="input-wrapper-1"><div className="text-wrapper-3">CHANGE USERNAME</div></div> 
+                        <div className="input-wrapper-2"><div className="text-wrapper-4">CHANGE PASSWORD</div></div>
+                        <div className="input-wrapper-3"><div className="text-wrapper-7">CHANGE EMAIL</div></div>
+                        <div className="input-wrapper-4"><div className="text-wrapper-8">CHANGE VISIBILITY</div></div>
+                        <div className="input-wrapper-5"><div className="text-wrapper-9">DELETE ACCOUNT</div></div>
                     </div>
                 </div>
                 <div className="overlap-wrapper">
