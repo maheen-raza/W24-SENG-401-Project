@@ -9,6 +9,10 @@ function SettingsPage() {
                 <div className="group">
                     <div className="overlap">
                         <div className="overlap-group">
+                            <div className="home-button"><div className="text-wrapper-home-button">HOME</div></div>
+                            <div className="search-button"><div className="text-wrapper-search-button">SEARCH</div></div>
+                            <div className="profile-button"><div className="text-wrapper-profile-button">PROFILE</div></div>
+                            <div className="settings-button"><div className="text-wrapper-settings-button">SETTINGS</div></div>
                             <div className="log-out">LOG OUT</div>
                         </div>
                         <div className="text-wrapper-2">SETTINGS</div>

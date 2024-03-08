@@ -48,12 +48,6 @@ body, html {
     text-align: center;
     top: 420px;
     width: 289px;
-    /*
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd;
-    border-radius: 5px; 
-    padding: 10px;
-    */
 }
 
 .settings .overlap-group {
@@ -78,7 +72,7 @@ body, html {
     text-align: center;
     top: 90px;
     border: 1px solid #fff; 
-    border-radius: 5px; 
+    border-radius: 30px;
     padding: 10px; 
 }
 
@@ -95,14 +89,6 @@ body, html {
     text-shadow: 0px 4px 4px #00000040;
     top: 15px;
     width: 545px;
-}
-
-.settings .img {
-    height: 72px;
-    left: 112px;
-    position: absolute;
-    top: 359px;
-    width: 322px;
 }
 
 .settings .overlap-group-wrapper {
@@ -201,7 +187,7 @@ body, html {
 .settings .input-wrapper-1 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px; 
     padding: 10px;
     position: absolute;
     width: 289px; 
@@ -213,7 +199,7 @@ body, html {
 .settings .input-wrapper-2 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px; 
     padding: 10px;
     position: absolute;
     width: 289px; 
@@ -232,14 +218,14 @@ body, html {
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 9px;
+    top: 20px;
     width: 195px;
 }
 
 .settings .input-wrapper-3 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px; 
     padding: 10px;
     position: absolute;
     width: 289px; 
@@ -251,7 +237,7 @@ body, html {
 .settings .input-wrapper-4 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px;  
     padding: 10px;
     position: absolute;
     width: 289px; 
@@ -263,7 +249,7 @@ body, html {
 .settings .input-wrapper-5 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px;  
     padding: 10px;
     position: absolute;
     width: 289px; 
@@ -300,4 +286,106 @@ body, html {
     width: 195px;
 }
 
+.settings .home-button {
+    background-color: #f5e3db; 
+    border: 1px solid #ddd;
+    border-radius: 30px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 740px;
+    right: 700px;
+}
 
+.settings .text-wrapper-home-button {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 195px;
+}
+
+.settings .search-button {
+    background-color: #f5e3db; 
+    border: 1px solid #ddd;
+    border-radius: 30px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 740px;
+    right: 300px;
+}
+
+.settings .text-wrapper-search-button {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 195px;
+}
+
+.settings .profile-button {
+    background-color: #f5e3db; 
+    border: 1px solid #ddd;
+    border-radius: 30px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 740px;
+    right: -100px;
+}
+
+.settings .text-wrapper-profile-button {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 195px;
+}
+
+.settings .settings-button {
+    background-color: #f5e3db; 
+    border: 1px solid #ddd;
+    border-radius: 30px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 740px;
+    right: -500px;
+}
+
+.settings .text-wrapper-settings-button {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 195px;
+}

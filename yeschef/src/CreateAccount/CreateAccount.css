@@ -48,12 +48,6 @@ body, html {
     text-align: center;
     top: 420px;
     width: 289px;
-    /*
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd;
-    border-radius: 5px; 
-    padding: 10px;
-    */
 }
 
 .create-account .overlap-group {
@@ -95,14 +89,6 @@ body, html {
     text-shadow: 0px 4px 4px #00000040;
     top: 15px;
     width: 545px;
-}
-
-.create-account .img {
-    height: 72px;
-    left: 112px;
-    position: absolute;
-    top: 359px;
-    width: 322px;
 }
 
 .create-account .overlap-group-wrapper {
@@ -149,12 +135,6 @@ body, html {
     text-align: center;
     top: 250px;
     width: 289px;
-    /*
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd; 
-    border-radius: 5px; 
-    padding: 10px; 
-    */
 }
 
 .create-account .rectangle-3 {
@@ -208,7 +188,7 @@ body, html {
 .create-account .input-wrapper-1 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px;  
     padding: 10px;
     position: absolute;
     width: 289px; 
@@ -220,7 +200,7 @@ body, html {
 .create-account .input-wrapper-2 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px;  
     padding: 10px;
     position: absolute;
     width: 289px; 
@@ -242,18 +222,12 @@ body, html {
     text-align: center;
     top: 100px;
     width: 289px;
-    /*
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd; 
-    border-radius: 5px; 
-    padding: 10px; 
-    */
 }
 
 .create-account .input-wrapper-3 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px;  
     padding: 10px;
     position: absolute;
     width: 289px; 

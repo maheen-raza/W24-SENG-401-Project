@@ -48,12 +48,6 @@ body, html {
     text-align: center;
     top: 308px;
     width: 289px;
-    /*
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd;
-    border-radius: 5px; 
-    padding: 10px;
-    */
 }
 
 .login .overlap-group {
@@ -78,7 +72,7 @@ body, html {
     text-align: center;
     top: -20px;
     border: 1px solid #fff; 
-    border-radius: 5px; 
+    border-radius: 30px; 
     padding: 10px; 
 }
 
@@ -95,14 +89,6 @@ body, html {
     text-shadow: 0px 4px 4px #00000040;
     top: 34px;
     width: 545px;
-}
-
-.login .img {
-    height: 72px;
-    left: 112px;
-    position: absolute;
-    top: 359px;
-    width: 322px;
 }
 
 .login .overlap-group-wrapper {
@@ -128,6 +114,7 @@ body, html {
     position: absolute;
     top: 0;
     width: 194px;
+    border-radius: 30px;
 }
 
 .login .text-wrapper-3 {
@@ -157,12 +144,6 @@ body, html {
     text-align: center;
     top: 148px;
     width: 289px;
-    /*
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd; 
-    border-radius: 5px; 
-    padding: 10px; 
-    */
 }
 
 .login .rectangle-3 {
@@ -216,7 +197,7 @@ body, html {
 .login .input-wrapper-1 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px;  
     padding: 10px;
     position: absolute;
     width: 289px; 
@@ -228,7 +209,7 @@ body, html {
 .login .input-wrapper-2 {
     background-color: #f8f8f8; 
     border: 1px solid #ddd;
-    border-radius: 5px; 
+    border-radius: 30px;  
     padding: 10px;
     position: absolute;
     width: 289px; 
