@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  border-color: violet;
+}
+.row1,
+.row2 {
+  background-color: #f5e3db;
+}
+
+td {
+  width: 800px; /* Set the width as needed */
+  height: 100px; /* Set the height as needed */
+}
+
+.featuredText {
+  color: #f5e3db; /* Adjust the color as needed */
+}
+
+.text-wrapper {
+  color: #edd3c5;
+  font-family: "Rozha One", Helvetica;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 513px;
+  top: -200px;
+}
+
+.rectangles-row {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5e3db;
+  justify-content: space-evenly;
+}
+
+.whiteRectangle {
+  width: 150px;
+  height: 90px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+h4,
+p {
+  text-align: center;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+#previous {
+  color: #f8f7f8;
+  font-size: 2.5em;
+}
+#next {
+  color: f8f7f8;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.buttonHolder {
+  display: inline-block;
+  margin-left: 53%;
+}
+
+span {
+  font-size: 2em;
+}
