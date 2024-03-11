@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals"; 
 import CreateAccount from "./CreateAccount/CreateAccount";
 //import SettingsPage from "./SettingsPage/SettingsPage"; <Route path="/settings" element={<SettingsPage/>} />
+import Search from "./Search/Search";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -18,6 +19,7 @@ root.render(
         <Route path="/" element={<WebHome />} />
         <Route path="/login" element={<Login />} />
         <Route path="/createaccount" element={<CreateAccount/>} />
+        <Route path="/search" element={<Search/>} />
       </Routes>
     </Router>
   </React.StrictMode>

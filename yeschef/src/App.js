@@ -4,6 +4,7 @@ import WebHome from "./WebHome/WebHome";
 import Login from "./Login/Login"; 
 import CreateAccount from "./CreateAccount/CreateAccount";
 //import SettingsPage from "./SettingsPage/SettingsPage"; <Route path="/settings" component={SettingsPage} />
+import Search from "./Search/Search";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" exact component={WebHome} />
         <Route path="/login" component={Login} />
         <Route path="/createaccount" component={CreateAccount} />
+        <Route path="/search" component={Search} />
       </div>
     </Router>
   );
