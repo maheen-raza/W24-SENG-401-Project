@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 import CreateAccount from "./CreateAccount/CreateAccount";
 import SettingsPage from "./SettingsPage/SettingsPage"; 
 import Search from "./Search/Search";
+import "@fontsource/rozha-one"; 
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
