@@ -28,143 +28,37 @@ body, html {
 }
 
 .search .overlap {
-    background-color: #f5e3db;
-    height: 650px;
+
+}
+
+.container {
     position: relative;
+    background-color: #f5e3db;
     width: 1200px;
-    bottom: -300px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    bottom: 300px;
     right: 300px;
-}
-
-.search .post-box-1{
-    width: 300px; 
-    height: 300px;
-    background-color: white;
-    border: 1px solid white; 
-    border-radius: 30%;
-    right: 200;
-}
-
-.search .sort-by {
-    color: #f5e3db;
-    font-family: "Lao Sans Pro-Regular", Helvetica;
-    font-size: 30px;
-    font-weight: 400;
-    left: 920px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    width: 195px;
-}
-
-.search .tag-search-bar {
-    background-color: #f5e3db;
-    height: 130px;
-    position: relative;
-    width: 1500px;
-    bottom: -170px;
-    right: 50px;
-}
-
-.search .text-wrapper-tags {
-    color: #1b4235;
-    font-family: "Lao Sans Pro-Regular", Helvetica;
-    font-size: 65px;
-    font-weight: 400;
-    left: 200px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 20px;
-    width: 195px;
-    
-    width: 200px; 
-    height: 100px;
-    background-color: white;
-    border: 1px solid white; 
-    right: 100;
-    border-radius: 30%;
-}
-
-.search .search-text {
-    color: #1b4235;
-    font-family: "Lao Sans Pro-Regular", Helvetica;
-    font-size: 40px;
-    font-weight: 400;
-    left: 10px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 15px;
-    width: 195px;
-}
-
-.search .text-wrapper-chefs {
-    color: #1b4235;
-    font-family: "Lao Sans Pro-Regular", Helvetica;
-    font-size: 65px;
-    font-weight: 400;
-    left: 450px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 20px;
-    width: 195px;
-
-    width: 200px; 
-    height: 100px;
-    background-color: white;
-    border: 1px solid white; 
-    right: 100;
-    border-radius: 30%;
-}
-
-.search .text-wrapper-food {
-    color: #1b4235;
-    font-family: "Lao Sans Pro-Regular", Helvetica;
-    font-size: 65px;
-    font-weight: 400;
-    left: 725px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 20px;
-    width: 195px;
-
-    width: 200px; 
-    height: 100px;
-    background-color: white;
-    border: 1px solid white; 
-    right: 100;
-    border-radius: 30%;
-}
-
-.search .text-wrapper-ingredient {
-    color: #1b4235;
-    font-family: "Lao Sans Pro-Regular", Helvetica;
-    font-size: 65px;
-    font-weight: 400;
-    left: 1000px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 20px;
-    width: 195px;
-
-    width: 450px; 
-    height: 100px;
-    background-color: white;
-    border: 1px solid white; 
-    right: 100;
-    border-radius: 30%;
-}
+  }
+  
+  .small-square {
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    margin: 10px;
+  }
+  
+  .square1 { top: 10px; left: 10px; }
+  .square2 { top: 10px; right: 10px; }
+  .square3 { top: 90px; left: 10px; }
+  .square4 { top: 90px; right: 10px; }
+  
+  .square5 { bottom: 10px; left: 10px; }
+  .square6 { bottom: 10px; right: 10px; }
+  .square7 { bottom: 90px; left: 10px; }
+  .square8 { bottom: 90px; right: 10px; }
 
 .search .text-wrapper {
     color: #1b4235;
@@ -426,7 +320,7 @@ body, html {
     width: 289px; 
     height: 51px; 
     bottom: 740px;
-    right: 1050px;
+    right: 1000px;
 }
 
 .search .text-wrapper-home-button {
@@ -469,7 +363,7 @@ body, html {
     width: 195px;
 }
 
-.searcb .profile-button {
+.search .profile-button {
     background-color: #f5e3db; 
     border: 1px solid #ddd;
     border-radius: 30px; 
@@ -478,7 +372,7 @@ body, html {
     width: 289px; 
     height: 51px; 
     bottom: 740px;
-    right: -500px;
+    right: 200px;
 }
 
 .search .text-wrapper-profile-button {
@@ -520,3 +414,39 @@ body, html {
     top: 15px;
     width: 195px;
 }
+
+.tag-search-bar {
+    width: 300px;
+    height: 40px;
+    background-color: #f5e3db;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000; 
+  }
+
+  .search-by-tag-button {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  .search-by-chef-button {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .search-by-food-button {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  .search-by-ingredient-button {
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
