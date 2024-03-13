@@ -6,6 +6,10 @@ import Login from "./Login/Login";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals"; 
 import CreateAccount from "./CreateAccount/CreateAccount";
+import SearchByCategory from "./SearchByCategory/SearchByCategory";
+import SearchByChef from "./SearchByChef/SearchByChef";
+import SearchByIngredients from "./SearchByIngredients/SearchByIngredients";
+
 //import SettingsPage from "./SettingsPage/SettingsPage"; <Route path="/settings" element={<SettingsPage/>} />
 
 
@@ -18,6 +22,9 @@ root.render(
         <Route path="/" element={<WebHome />} />
         <Route path="/login" element={<Login />} />
         <Route path="/createaccount" element={<CreateAccount/>} />
+        <Route path="/searchbycategory" element={<SearchByCategory/>} />
+        <Route path="/searchbychef" element={<SearchByChef/>} />
+        <Route path="/searchbyingredients" element={<SearchByIngredients/>} />
       </Routes>
     </Router>
   </React.StrictMode>
