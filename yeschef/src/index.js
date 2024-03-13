@@ -8,6 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 import CreateAccount from "./CreateAccount/CreateAccount";
 import SettingsPage from "./SettingsPage/SettingsPage"; 
 import Search from "./Search/Search";
+import SearchByTags from "./SearchByTags/SearchByTags"
 import "@fontsource/rozha-one"; 
 
 
@@ -22,6 +23,7 @@ root.render(
         <Route path="/createaccount" element={<CreateAccount/>} />
         <Route path="/search" element={<Search/>} />
         <Route path="/settings" element={<SettingsPage/>} />
+        <Route path="/searchbytags" element={<SearchByTags/>}/>
       </Routes>
     </Router>
   </React.StrictMode>

@@ -5,6 +5,7 @@ import Login from "./Login/Login";
 import CreateAccount from "./CreateAccount/CreateAccount";
 import SettingsPage from "./SettingsPage/SettingsPage"; 
 import Search from "./Search/Search";
+import SearchByTags from "./SearchByTags/SearchByTags"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/createaccount" component={CreateAccount} />
         <Route path="/search" component={Search} />
         <Route path="/settings" component={SettingsPage} />
+        <Route path="/searchbytags" component={SearchByTags} />
       </div>
     </Router>
   );
