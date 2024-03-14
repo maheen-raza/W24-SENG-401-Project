@@ -10,7 +10,7 @@ function Login() {
                         <div className="text-wrapper">PASSWORD</div>
                         <div className="input-wrapper-1"></div> 
                         <div className="overlap-group">
-                            <Link to="/search">
+                            <Link to="/createaccount">
                                 <div className="create-account">OR CREATE AN ACCOUNT</div>
                             </Link>
                         </div>
