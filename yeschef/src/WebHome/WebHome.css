@@ -55,19 +55,11 @@
   width: 1280px;
 }
 
- .group {
-  height: 66px;
-  left: 350px;
-  position: absolute;
-  top: 50px;
-  width: 197px;
-} 
-
 .group-2 {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column; /* Adjusted to column layout */
   align-items: center;
-  height: auto; 
+  height: auto; /* Removed absolute positioning height */
   left: 383px;
   position: absolute;
   top: 0;

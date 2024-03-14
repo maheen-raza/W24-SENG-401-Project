@@ -9,9 +9,10 @@ import CreateAccount from "./CreateAccount/CreateAccount";
 import SearchByCategory from "./SearchByCategory/SearchByCategory";
 import SearchByChef from "./SearchByChef/SearchByChef";
 import SearchByIngredients from "./SearchByIngredients/SearchByIngredients";
-
-//import SettingsPage from "./SettingsPage/SettingsPage"; <Route path="/settings" element={<SettingsPage/>} />
-
+import SettingsPage from "./SettingsPage/SettingsPage"; 
+import Search from "./Search/Search";
+import SearchByTags from "./SearchByTags/SearchByTags"
+import "@fontsource/rozha-one"; 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,6 +26,9 @@ root.render(
         <Route path="/searchbycategory" element={<SearchByCategory/>} />
         <Route path="/searchbychef" element={<SearchByChef/>} />
         <Route path="/searchbyingredients" element={<SearchByIngredients/>} />
+        <Route path="/search" element={<Search/>} />
+        <Route path="/settings" element={<SettingsPage/>} />
+        <Route path="/searchbytags" element={<SearchByTags/>}/>
       </Routes>
     </Router>
   </React.StrictMode>
