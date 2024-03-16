@@ -47,7 +47,15 @@ const HomePage = () => {
 
   return (
     <div className="homePageContainer">
-      <div className="text-wrapper">YES, CHEF</div>
+      <div className="Header">
+        <button>🏠</button>
+        <button>🔍</button>
+        <button>👤</button>
+        <button>⚙️</button>
+      </div>
+      <div className="text-wrapper">
+        <h3>YES, CHEF</h3>
+      </div>
       <div className="tableContainer">
         <table>
           <tbody>

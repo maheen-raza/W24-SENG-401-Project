@@ -8,12 +8,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
-  border-color: violet;
+  height: 60vh;
 }
 .row1,
 .row2 {
   background-color: #f5e3db;
+  width: 80%;
 }
 
 td {
@@ -28,13 +28,11 @@ td {
 .text-wrapper {
   color: #edd3c5;
   font-family: "Rozha One", Helvetica;
-  font-size: 80px;
+  font-size: 6vw;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
   text-align: center;
-  width: 513px;
-  top: -200px;
 }
 
 .rectangles-row {
@@ -45,8 +43,7 @@ td {
 }
 
 .whiteRectangle {
-  width: 150px;
-  height: 90px;
+  padding: 3% 6%;
   background-color: white;
   margin: 5px;
   border-radius: 20px;
@@ -68,11 +65,11 @@ p {
 }
 #previous {
   color: #f8f7f8;
-  font-size: 2.5em;
+  font-size: 3vw;
 }
 #next {
   color: f8f7f8;
-  font-size: 2.5em;
+  font-size: 3vw;
   font-weight: bold;
 }
 
@@ -82,5 +79,25 @@ p {
 }
 
 span {
-  font-size: 2em;
+  font-size: 2vw;
+}
+.Header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Header button {
+  background-color: #edd3c5;
+  cursor: pointer;
+  padding: 1% 4%;
+  border-radius: 20px;
+  font-size: 3vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.text-wrapper {
+  text-align: center;
+  width: 100%;
 }
