@@ -17,12 +17,12 @@
 }
 
 td {
-  width: 800px; /* Set the width as needed */
-  height: 100px; /* Set the height as needed */
+  width: 800px;
+  height: 100px;
 }
 
 .featuredText {
-  color: #f5e3db; /* Adjust the color as needed */
+  color: #f5e3db;
 }
 
 .text-wrapper {
@@ -43,6 +43,8 @@ td {
 }
 
 .whiteRectangle {
+  /* width: 150px;
+  height: 90px; */
   padding: 3% 6%;
   background-color: white;
   margin: 5px;
