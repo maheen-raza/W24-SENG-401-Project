@@ -1,6 +1,6 @@
 import React from "react";
 import "./SettingsPage.css";
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function SettingsPage() {
     return (
@@ -10,7 +10,7 @@ function SettingsPage() {
                     <div className="overlap">
                         <div className="overlap-group">
                             <div className="home-button"><div className="text-wrapper-home-button">HOME</div></div>
-                            <div className="search-button"><div className="text-wrapper-search-button">SEARCH</div></div>
+                            <div className="search-button"><Link to="/search"><div className="text-wrapper-search-button">SEARCH</div></Link></div>
                             <div className="profile-button"><div className="text-wrapper-profile-button">PROFILE</div></div>
                             <div className="settings-button"><div className="text-wrapper-settings-button">SETTINGS</div></div>
                             <div className="log-out">LOG OUT</div>

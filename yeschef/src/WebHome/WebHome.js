@@ -1,7 +1,7 @@
 import React from "react";
 import "./WebHome.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Login from "../Login/Login";
+//import Login from "../Login/Login";
 
 function App() {
   return (

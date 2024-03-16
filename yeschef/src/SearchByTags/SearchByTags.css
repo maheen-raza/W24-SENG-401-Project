@@ -1,0 +1,334 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1b4235; 
+}
+
+.searchbytags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.searchbytags .div {
+    background-color: #1b4235;
+    height: 832px;
+    position: relative;
+    width: 1280px;
+}
+
+.container2 {
+    position: relative;
+    background-color: #f5e3db;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    bottom: -300px;
+    right: -20px;
+  }
+
+  
+  .small-square {
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 30px; 
+  }
+  
+  .square1 { top: 10px; left: 10px; }
+  .square2 { top: 10px; right: 10px; }
+  .square3 { top: 90px; left: 10px; }
+  .square4 { top: 90px; right: 10px; }
+  
+  .square5 { bottom: 10px; left: 10px; }
+  .square6 { bottom: 10px; right: 10px; }
+  .square7 { bottom: 90px; left: 10px; }
+  .square8 { bottom: 90px; right: 10px; }
+
+
+.searchbytags .text-wrapper-5 {
+    color: #f5e3db;
+    font-family: "Rozha One", Helvetica;
+    font-size: 75px;
+    font-weight: 400;
+    left: -270px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 132px;
+}
+
+.searchbytags .text-wrapper-6 {
+    color: #f5e3db;
+    font-family: "Rozha One", Helvetica;
+    font-size: 75px;
+    font-weight: 400;
+    left: -270px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 60px;
+    width: 132px;
+}
+
+.searchbytags .home-button {
+    background-color: #f5e3db; 
+    border: 1px solid #ddd;
+    border-radius: 30px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 740px;
+    right: 1000px;
+    cursor: pointer;
+}
+
+.searchbytags .text-wrapper-home-button {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 195px;
+}
+
+.searchbytags .search-button {
+    background-color: #f5e3db; 
+    border: 1px solid #ddd;
+    border-radius: 30px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 740px;
+    right: 600px;
+    cursor: pointer;
+}
+
+.searchbytags .text-wrapper-search-button {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 195px;
+}
+
+.searchbytags .profile-button {
+    background-color: #f5e3db; 
+    border: 1px solid #ddd;
+    border-radius: 30px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 740px;
+    right: 200px;
+    cursor: pointer;
+}
+
+.searchbytags .text-wrapper-profile-button {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 195px;
+}
+
+.searchbytags .settings-button {
+    background-color: #f5e3db; 
+    border: 1px solid #ddd;
+    border-radius: 30px; 
+    padding: 10px;
+    position: absolute;
+    width: 289px; 
+    height: 51px; 
+    bottom: 740px;
+    right: -200px;
+    cursor: pointer;
+}
+
+.searchbytags .text-wrapper-settings-button {
+    color: #1b4235;
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 195px;
+}
+
+.container {
+    position: relative;
+    background-color: #f5e3db;
+    width: 1200px;
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    bottom: -200px;
+    right: -20px;
+    border-radius: 30px; 
+  }
+
+.container .search-by-text {
+    color: #1b4235;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 40px;
+}
+
+.searchbytags .tags-button {
+    color: #1b4235;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 40px;
+    right: 750px;
+    border-radius: 30px;
+    text-decoration: underline; 
+}
+
+.searchbytags .chef-button {
+    background-color: #fff;
+    color: #1b4235;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 40px;
+    right: 575px;
+    border-radius: 30px; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.searchbytags .food-button {
+    background-color: #fff;
+    color: #1b4235;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 40px;
+    right: 380px;
+    border-radius: 30px; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.searchbytags .ingredient-button {
+    background-color: #fff;
+    color: #1b4235;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    border-radius: 30px; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.searchbytags .sort-text {
+    color: #f5e3db;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 420px;
+    right: 150px;
+}
+
+.searchbytags .by-text {
+    color: #f5e3db;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 420px;
+    right: 80px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*
+.searchbytags .blank-space {
+    background-color: #fff;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    border-radius: 30px; 
+    width: 725px;
+    height: 75px;
+    bottom: 30px;
+}
+
+*/
+
+.searchbytags .blank-space {
+    background-color: #fff;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 40px;
+    right: 130px;
+    border-radius: 30px; 
+    width: 600px;
+    height: 75px;
+    bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #555;
+    font-size: 40px;
+    color: #1b4235;
+}
+
+
+
