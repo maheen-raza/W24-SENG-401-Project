@@ -6,7 +6,6 @@ import Login from "./Login/Login";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import CreateAccount from "./CreateAccount/CreateAccount";
-import HomePage from "./HomePage/HomePage";
 //import SettingsPage from "./SettingsPage/SettingsPage"; <Route path="/settings" element={<SettingsPage/>} />
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -18,7 +17,6 @@ root.render(
         <Route path="/" element={<WebHome />} />
         <Route path="/login" element={<Login />} />
         <Route path="/createaccount" element={<CreateAccount />} />
-        <Route path="/HomePage" element={<HomePage />} />
       </Routes>
     </Router>
   </React.StrictMode>

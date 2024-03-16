@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import WebHome from "./WebHome/WebHome";
 import Login from "./Login/Login";
 import CreateAccount from "./CreateAccount/CreateAccount";
-import HomePage from "./HomePage/HomePage";
 //import SettingsPage from "./SettingsPage/SettingsPage"; <Route path="/settings" component={SettingsPage} />
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
         <Route path="/" exact component={WebHome} />
         <Route path="/login" component={Login} />
         <Route path="/createaccount" component={CreateAccount} />
-        <Route path="/HomePage" component={HomePage} />
       </div>
     </Router>
   );
