@@ -13,9 +13,9 @@ function Search() {
                 <div className="container">
                     <div className="search-by-text">SEARCH BY</div>
                     <Link to="/searchbytags"><button className="tags-button">TAGS</button></Link>
-                    <button className="chef-button">CHEF</button>
-                    <button className="food-button">FOOD</button>
-                    <button className="ingredient-button">INGREDIENTS</button>
+                    <Link to="/searchbychef"><button className="chef-button">CHEF</button></Link>
+                    <Link to="/searchbycategory"><button className="food-button">FOOD</button></Link>
+                    <Link to="/searchbyingredients"><button className="ingredient-button">INGREDIENTS</button></Link>
                 </div>
                 <div className="sort-text">SORT</div>
                 <div className="by-text">BY</div>
