@@ -6,7 +6,7 @@ function Search() {
     return (
         <div className="search">
             <div className="div">
-                <div className="home-button"><div className="text-wrapper-home-button">HOME</div></div>
+                <div className="home-button"><Link to="/homepage"><div className="text-wrapper-home-button">HOME</div></Link></div>
                 <div className="search-button"><div className="text-wrapper-search-button">SEARCH</div></div>
                 <div className="profile-button"><div className="text-wrapper-profile-button">PROFILE</div></div>
                 <div className="settings-button"><Link to="/settings"><div className="text-wrapper-settings-button">SETTINGS</div></Link></div>
