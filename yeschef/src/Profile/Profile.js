@@ -1,9 +1,9 @@
 import React from "react";
-import "./SearchByChef.css";
+import "./Profile.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { useState } from "react";
 
-function SearchByChef() {
+function Profile() {
     return (
         <div className="searchbychef">
             <div className="div">
@@ -31,4 +31,4 @@ function SearchByChef() {
     );
 }
 
-export default SearchByChef;
+export default Profile;
