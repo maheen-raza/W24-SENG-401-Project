@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function Profile() {
     return (
-        <div className="searchbychef">
+        <div className="Profile">
             <div className="div">
                 <div className="home-button"><Link to="/homepage"><div className="text-wrapper-home-button">HOME</div></Link></div>
                 <div className="search-button"><Link to="/search"><div className="text-wrapper-search-button">SEARCH</div></Link></div>
