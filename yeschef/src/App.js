@@ -9,7 +9,8 @@ import SearchByTags from "./SearchByTags/SearchByTags"
 import SearchByCategory from "./SearchByCategory/SearchByCategory";
 import SearchByChef from "./SearchByChef/SearchByChef";
 import SearchByIngredients from "./SearchByIngredients/SearchByIngredients";
-import HomePage from "./HomePage/HomePage"
+import HomePage from "./HomePage/HomePage";
+import Profile from "./Profile/Profile";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/settings" component={SettingsPage} />
         <Route path="/searchbytags" component={SearchByTags} />
         <Route path="/homepage" component={HomePage} />
+        <Route path="/profile" component={Profile} />
       </div>
     </Router>
   );
