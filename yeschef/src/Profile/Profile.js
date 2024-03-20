@@ -9,7 +9,7 @@ function Profile() {
             <div className="div">
                 <div className="home-button"><Link to="/homepage"><div className="text-wrapper-home-button">HOME</div></Link></div>
                 <div className="search-button"><Link to="/search"><div className="text-wrapper-search-button">SEARCH</div></Link></div>
-                <div className="profile-button"><div className="text-wrapper-profile-button">PROFILE</div></div>
+                <div className="profile-button"><Link to= "/searchbyprofile"><div className="text-wrapper-profile-button">PROFILE</div></Link></div>
                 <div className="settings-button"><Link to="/settings"><div className="text-wrapper-settings-button">SETTINGS</div></Link></div>
                 <div className="container2">
                     {/* Small Square 1 with Image */}
