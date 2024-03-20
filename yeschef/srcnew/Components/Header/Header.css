@@ -1,0 +1,27 @@
+.navbarlol{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.Headerlol{
+    width: 100%;
+}
+
+.Headerlol .button-28{
+    
+    font-size: 30px;
+    
+    width: auto;
+    min-width: 175px;
+}
+.Headerlol .name{
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+
+.linkslol{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}

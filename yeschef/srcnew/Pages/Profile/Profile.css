@@ -1,0 +1,86 @@
+
+.profilepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profilelol{
+    display: flex;
+    justify-content: space-between;
+    
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: var(--text);
+    border-radius: 25px;
+
+    width: 60%;
+}
+
+img{
+    border-radius: 25px;
+}
+
+/* .username{
+    color: var(--bg);
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 55px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    
+    margin-top: 20px;
+}
+
+
+.aboutme{
+    font-size: 20px;
+    width: 100%;
+}
+.pfpcontent{
+     
+    
+    
+} */
+
+.pfpcontent {
+    flex: 1; /* Take remaining space */
+    padding: 30px;
+}
+
+.username {
+    color: var(--bg);
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 55px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    
+    text-align: center;
+    text-shadow: 0px 4px 4px #00000040;
+    
+    margin-top: 20px;
+}
+.aboutme{
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    font-size: 20px;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact {
+    color: var(--text6);
+    font-family: "Lao Sans Pro-Regular", Helvetica;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 25px;
+    word-wrap: break-word; 
+}

@@ -1,0 +1,55 @@
+body{
+     background-color: var(--bg);
+}
+
+.LandingContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optionally set the height of the container to 100% of the viewport height */
+}
+
+.heading{
+color: #edd3c5;
+  font-family: "Rozha One", Helvetica;
+  font-size: 250px;
+  font-weight: 900px;
+  
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+@keyframes background-pan {
+    from{
+      background-position: 0% center;
+    }
+    to{
+      background-position: -200% center;
+    }
+  }
+
+.magic{
+    width: 100%;
+    animation: background-pan 1s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--text),
+      var(--text3),
+      var(--text5),
+      var(--text3),
+      var(--text)
+
+    );
+  
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  
+  }
+  
+
