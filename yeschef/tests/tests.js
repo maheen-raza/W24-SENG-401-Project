@@ -23,7 +23,7 @@ describe('API Tests', () => {
   it('create account', async () => {
     const response = await request
       .post('/auth/join')
-      .send({ 'email': "new6@example.com", 'password': "passwordabcd" });   // must change every time 
+      .send({ 'email': "new7@example.com", 'password': "passwordabcd" });   // must change every time 
 
     expect(response.status).to.equal(201);
   });
@@ -107,14 +107,14 @@ describe('API Tests', () => {
   it('change password', async () => {
     const loginResponse = await request
       .post('/auth/login')
-      .send({ 'email': 'new6@example.com', 'password': 'passwordabcd' }); // must change every time according to account created
+      .send({ 'email': 'new7@example.com', 'password': 'passwordabcd' }); // must change every time according to account created
 
     const token = loginResponse.body.token;
 
     const response = await request
       .put('/auth/updatePassword')
       .set('Authorization', `Bearer ${token}`)
-      .send({ 'email': 'new6@example.com', 'newPassword': 'password' }); // must change every time according to account created
+      .send({ 'email': 'new7@example.com', 'newPassword': 'password' }); // must change every time according to account created
 
     expect(response.status).to.equal(200);
   });
@@ -123,14 +123,14 @@ describe('API Tests', () => {
   it('change email', async () => {
     const loginResponse = await request
       .post('/auth/login')
-      .send({ 'email': 'new6@example.com', 'password': 'password' }); // must change every time according to account created
+      .send({ 'email': 'new7@example.com', 'password': 'password' }); // must change every time according to account created
 
     const token = loginResponse.body.token;
 
     const response = await request
       .put('/auth/updateEmail')
       .set('Authorization', `Bearer ${token}`)
-      .send({ 'email': 'new6@example.com', 'newEmail': 'new6email@example.com' }); // must change every time according to account created
+      .send({ 'email': 'new7@example.com', 'newEmail': 'new7email@example.com' }); // must change every time according to account created
 
     expect(response.status).to.equal(200);
   });
