@@ -1,3 +1,8 @@
+Install supertest locally:
+```bash
+npm install supertest --save-dev
+```
+
 Install mocha locally:
 ```bash
 npm install --save-dev mocha
